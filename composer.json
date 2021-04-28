@@ -1,0 +1,31 @@
+{
+    "name": "greg/teams-cms",
+    "description": "",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gregor Lohaus"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.4.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "Greg\\TeamCms\\TeamCms",
+        "label": {
+            "de-DE": "Team CMS",
+            "en-GB": "Team CMS"
+        },
+        "description": {
+            "de-DE": "",
+            "en-GB": ""
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Greg\\TeamCms\\": "src/"
+        }
+    }
+}
